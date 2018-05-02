@@ -1,3 +1,6 @@
+"""
+Find the duplicates in the array
+"""
 dups = [4,7,2,9,4,87,5,45,3,5,45,7,8,9,4]
 
 def dup_guard(arr):

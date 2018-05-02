@@ -1,3 +1,7 @@
+"""
+Find the intersection between two arrays
+"""
+# solution 1: Treating them like sets
 a = [21,34,41,22,35]
 b = [61,34,45,21,11]
 aa = set(a)

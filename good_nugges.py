@@ -1,6 +1,8 @@
 from functools import reduce
 import unittest
-
+"""
+Using reduce and lamda
+"""
 
 def compute(arr):
     print(arr)
