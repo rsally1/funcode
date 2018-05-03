@@ -16,6 +16,8 @@ def atoi(somestr):
 	answer = 0
 	if somestr[0] == "-":
 		sign = -1
+		somestr = somestr.replace("-",'')
+		
 	for s in somestr:
 		d = ord(s)
 		res.append(d)
@@ -43,6 +45,8 @@ class TestThisNow(unittest.TestCase):
 		self.assertEqual(answer, 546)
 		answer = atoi("9991")
 		self.assertEqual(answer, 9991)
+		answer = atoi("-357")
+		self.assertEqual(answer, -357)
 
 
 if __name__ == '__main__':
